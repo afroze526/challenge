@@ -15,7 +15,7 @@ class HelloWorld(Resource):
         return jsonify(args)
 
 
-api.add_resource(HelloWorld, '/')
+api.add_resource(HelloWorld text, '/')
 
 if __name__ == '__main__':
     app.run(debug=True)
